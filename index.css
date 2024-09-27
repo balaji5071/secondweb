@@ -81,14 +81,17 @@ gap:10px;
     margin-left: 700px;
     font-size: 20px;
 }
-.location{
+.headloco{
     border: 1px solid;
-   margin-top:10px;
-   height: 120px;
-   border-radius: 15px;
-   background-color: rgb(26, 231, 231);
+    background-color: rgb(218, 245, 245);
+    height: 150px;
+    margin-top:10px;
+    border-radius: 15px;
+}
+.location{
+    
    background-size: cover;
-   display:flex;
+   display: flex;
    gap: 25px;
 }
 #way{
@@ -97,7 +100,8 @@ text-align: center;
     
 }
 #one{
-    margin-left: 40px;
+    display: flex;
+    margin-left: 20px;
     color: rgb(47, 12, 242);
     border: 1px solid;
     border-radius: 15px;
@@ -108,6 +112,7 @@ text-align: center;
 }
 #trip{
     
+    display: flex;
     
     background-color: aliceblue;
     border: 1px solid;
@@ -122,4 +127,107 @@ text-align: center;
     display: flex;
     gap: 20px;
 }
+#call{
+    margin-top:10px;
+    margin-left: 1000px;
+    height: 30px;
+}
+.call{
+    display: flex;
+    gap:10px;
+}
+#locomid{
+    display: inline-block;
+    border: 1px solid;
+    width: 260px;
+    height: 40px;
+    background-color: rgb(206, 214, 216);
+    
+}
+.subloco{
+    display: flex;
+    gap:10px;
+    margin:10px;
+    margin-left: 20px;
+} 
+#locomids{
+    display: inline-block;
+    border: 1px solid;
+    width: 260px;
+    height: 40px;
+    background-color: rgb(206, 214, 216);
 
+}
+#to{
+    margin: 10px;
+    margin-bottom: 15px;
+}
+#from{
+    margin: 10px;
+    margin-bottom: 15px;
+    
+}
+#locomid1{
+    display: inline-block;
+    border: 1px solid;
+    width: 200px;
+    height: 40px;
+    background-color: rgb(206, 214, 216);
+    
+    gap: 10px;
+
+}
+#dep{
+    font-size: 8px;
+    font-weight: 100;
+    margin: 10px;
+    
+    
+}
+#dd{
+    font-size: 9px;
+    margin: 10px;
+
+}
+#locomid2{
+    display: inline-block;
+    border: 1px solid;
+    width: 200px;
+    height: 40px;
+    background-color: rgb(206, 214, 216);
+    
+}
+
+#locomid3{
+    display: inline-block;
+    border: 1px solid;
+    width: 200px;
+    height: 40px;
+    background-color: rgb(206, 214, 216);
+    
+    
+}
+#ret{
+    margin: 10px;
+}
+#tra{
+    font-size: 8px;
+    margin: 10px;
+}
+#cls{
+    font-size: 8px;
+    margin: 10px;
+}
+#locomid4{
+    display: inline-block;
+    border: 1px solid;
+    width: 200px;
+    height: 40px;
+    background-color:orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    
+    
+}

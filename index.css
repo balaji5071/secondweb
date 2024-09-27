@@ -1,0 +1,125 @@
+*{
+
+box-sizing: border-box;
+}
+.head{
+    border: 1px solid;
+    height: 40px;
+    display: flex;
+}
+#logo{
+    margin-top: 10px;
+    height: 30px;
+}
+.offer{
+    display: flex;
+    margin-left: 750px;
+    gap: 10px;
+    
+}
+#ofimg{
+    margin-top: 23px;
+}
+#off{
+font-size: 20px;
+
+}
+.cscare{
+    display: flex;
+    margin-left: 90px;
+    gap: 10px;
+}
+#csimg{
+    margin-top:20px ;
+}
+#cs{
+    font-size:20px ;
+}
+.login{
+display: flex;
+margin-left: 130px;
+gap:10px;
+}
+#logimg{
+    margin-top: 10px;
+}
+#log{
+    font-size: 20px;
+}
+.subhead{
+    border: 1px solid;
+    height: 60px;
+    display: flex;
+    gap: 20px;
+    margin-top: 10px;
+    position: relative;
+}
+.flight{
+    display: flex;
+}
+#fliimg{
+    height: 50px;
+    
+}
+.hotelicon{
+    display: flex;
+}
+#hotimg{
+    margin-top: 10px;
+}
+.train{
+    display:flex;
+}
+
+.buses{
+    display: flex;
+}
+#busimg{
+    margin-top: 10px;
+}
+.subhead1{
+    margin-left: 700px;
+    font-size: 20px;
+}
+.location{
+    border: 1px solid;
+   margin-top:10px;
+   height: 120px;
+   border-radius: 15px;
+   background-color: rgb(26, 231, 231);
+   background-size: cover;
+   display:flex;
+   gap: 25px;
+}
+#way{
+    margin:px;
+text-align: center;
+    
+}
+#one{
+    margin-left: 40px;
+    color: rgb(47, 12, 242);
+    border: 1px solid;
+    border-radius: 15px;
+    background-color: aliceblue;
+    width: 80px;
+    
+    
+}
+#trip{
+    
+    
+    background-color: aliceblue;
+    border: 1px solid;
+    border-radius: 15px;
+    width: 90px;
+    align-items: center;
+    justify-content: center;
+
+}
+#fgn
+{
+    display: flex;
+    gap: 20px;
+}
+
